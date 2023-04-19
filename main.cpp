@@ -443,4 +443,3 @@ int main() {
     cout<<"\n";
     cout<<plata_angajati(2, 4)<<" de lei"<<endl;
 }
-///daca am o clasa in care nu aloci nimic dinamic nu e nevoie sa scriu destructorul, dar ca sa vada Majeri il putem declara ~Numele_clasei()=default;
