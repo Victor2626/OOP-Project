@@ -32,7 +32,7 @@ Acest proiect contine 4 clase: Animal, Spectacol, Bilet si Cost.
 - Suprascrierea operatorului de afisare informatiilor despre cost
 
 ### Functiile de business:
--Calculul profitului gradinii zoologice
--Calculul numarului de angajati si salariul total pe care acestia il primesc
+- Calculul profitului gradinii zoologice
+- Calculul numarului de angajati si salariul total pe care acestia il primesc
 
 Bineinteles ca putem crea obiecte noi cu ajutorul constructorului, dar si sa le copiem, folosind constructorul de copiere si operatorul de atribuire. Memoria alocata pentru atributele de tip siruri de caractere poate fi gestionata cu ajutorul constructorilor si a destructorilor.
