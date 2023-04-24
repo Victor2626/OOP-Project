@@ -1,4 +1,4 @@
-# Gradina Zoologica ~ Proiect POO, Tema1
+# Gradina Zoologica ~ Proiect POO
 ## Descriere Proiect:
 In acest proiect, am realizat o aplicatie care gestioneaza o baza de date a unei gradini zoologice, folosind tehnici fundamentale ale programarii pe obiecte.
 
