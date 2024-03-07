@@ -1,38 +1,38 @@
-# Gradina Zoologica ~ Proiect POO
-## Descriere Proiect:
-In acest proiect, am realizat o aplicatie care gestioneaza o baza de date a unei gradini zoologice, folosind tehnici fundamentale ale programarii pe obiecte.
+# Zoo Project ~ OOP Project
+## Project Description:
+In this project, we have created an application that manages a database of a zoo, using fundamental object-oriented programming techniques.
 
-Acest proiect contine 4 clase: Animal, Spectacol, Bilet si Cost.
+This project contains 4 classes: Animal, Show, Ticket, and Cost.
 
-### Am folosit si compunere, astfel Spectacol are un vector cu obiecte de tip Animal (reprezentand o lista cu animalele care participa la un spectacol).
+### We also used composition, thus the Show has a vector with Animal type objects (representing a list of animals participating in a show).
 
-### Clasa "Animal":
-- Setarea/obtinerea tipului animalului
-- Setarea/obtinerea locatiei animalului
-- Setarea/obtinerea numelui animalului
-- Suprascrierea operatorului de afișare pentru afișarea informațiilor despre animal
-- Suprascrierea operatorului de mutare pentru ca un obiect să poata prelua caracteristicile de la un alt obiect, dezalocand memoria pentru cel din urma
+#### Class "Animal":
+- Setting/getting the type of the animal
+- Setting/getting the location of the animal
+- Setting/getting the name of the animal
+- Overriding the display operator for displaying information about the animal
+- Overriding the move operator so an object can take over characteristics from another object, deallocating memory for the latter
 
-### Clasa "Bilet":
-- Setarea/obtinerea pretului biletului
-- Setarea/obtinerea tipului biletului
-- Suprascrierea operatorului de afișare pentru afișarea informațiilor despre bilet
+#### Class "Ticket":
+- Setting/getting the price of the ticket
+- Setting/getting the type of the ticket
+- Overriding the display operator for displaying information about the ticket
 
-### Clasa "Spectacol":
-- Setarea/obtinerea numarului maxim de spectatori ai spectacolului
-- Setarea/obtinerea orei de incepere a spectacolului
-- Setarea/obtinerea numarului de animale ale spectacolului
-- Suprascrierea operatorului de afisare pentru afisarea informatiilor despre spectacol
+#### Class "Show":
+- Setting/getting the maximum number of spectators of the show
+- Setting/getting the start time of the show
+- Setting/getting the number of animals of the show
+- Overriding the display operator for displaying information about the show
 
-### Clasa "Cost":
-- Setarea/obtinerea costului hranei animalelor
-- Setarea/obtinerea costului salariilor angajatiilor
-- Setarea/obtinerea costului chiriei
-- Setarea/obtinerea costului intretinerii
-- Suprascrierea operatorului de afisare informatiilor despre cost
+#### Class "Cost":
+- Setting/getting the cost of the animals' food
+- Setting/getting the cost of employee salaries
+- Setting/getting the cost of rent
+- Setting/getting the cost of maintenance
+- Overriding the display operator for displaying information about the cost
 
-### Functiile de business:
-- Calculul profitului gradinii zoologice
-- Calculul numarului de angajati si salariul total pe care acestia il primesc
+### Business functions:
+- Calculating the zoo's profit
+- Calculating the number of employees and the total salary they receive
 
-Bineinteles ca putem crea obiecte noi cu ajutorul constructorului, dar si sa le copiem, folosind constructorul de copiere si operatorul de atribuire. Memoria alocata pentru atributele de tip siruri de caractere poate fi gestionata cu ajutorul constructorilor si a destructorilor.
+Of course, we can create new objects using the constructor, but also copy them, using the copy constructor and assignment operator. The memory allocated for attributes that are string types can be managed with the help of constructors and destructors.
